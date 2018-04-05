@@ -17,7 +17,7 @@
             {};
 
   // Save the previous value of the `_` variable.
-  var previousUnderscore = root._;
+  var previousUnderscore = root && root._;
 
   // Save bytes in the minified (but not gzipped) version:
   var ArrayProto = Array.prototype, ObjProto = Object.prototype;
